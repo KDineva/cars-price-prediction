@@ -1,5 +1,5 @@
-#Automobile Regression Challenge
-##Content:
+# Automobile Regression Challenge
+## Content:
 
 This **data set** consists of three types of entities:
 
@@ -15,7 +15,7 @@ The third factor is the relative average loss payment per insured vehicle year. 
 
 **Note**: Several of the attributes in the database could be used as a "class" attribute.
 
-###Problem statement:
+### Problem statement:
 
 Perform exploratory data analysis and select three key plots, explain your takeaways. Please note that there is no need to explain how you have generated your plots, only the inference and findings need to be explained.
 Perform multiple correspondence analysis (MCA) on the dataset and briefly describe your findings.
@@ -23,7 +23,7 @@ Build a model for predicting the price of the automobile. Explain your choices o
 Explain the high-level plan of action if the above model is to be used as the backend for a web application for B2B use at an automobile manufacturing firm. Please write in bullet points the steps needed and explain your technological choices.
 
 
-##How to run
+## How to run
 ### Download dataset from Kaggle:
 ```shell
 # MacOS/Linux
@@ -35,7 +35,7 @@ curl.exe --output output.file.name.here --url https://www.kaggle.com/datasets/to
 # Windows 10 PowerShell
 Invoke-WebRequest -OutFile output.file.name.here -Uri https://www.kaggle.com/datasets/toramky/automobile-dataset/data
 ```
-###Google Colab
+### Google Colab
  - Uncomment the following code snippets in the notebook (_1st three cells from start_):
    - Configure Colab.
    - Mount the drive.
@@ -64,7 +64,7 @@ Invoke-WebRequest -OutFile output.file.name.here -Uri https://www.kaggle.com/dat
 # !pip install tabulate
 ```
 
-###Local Environment
+### Local Environment
  - Create Virtual Env ([how to create virtual environment with python](https://docs.python.org/3/library/venv.html))
 ```shell
 python -m venv /path/to/new/virtual/environment
@@ -95,7 +95,7 @@ jupyter lab --notebook-dir=E:/ --preferred-dir E:/Documents/Somewhere/Else
 ```
  - Set correct path to data set in ```DATA_PATH``` variable.
 
-##Notes
+## Notes
 - Results and insights are included into inline notebook's comments.
 - Notebook contains some charts and tables. More can be found in ```./images``` folder.
 - Dumping trained model - just set correct paths for the model and the metadata.
