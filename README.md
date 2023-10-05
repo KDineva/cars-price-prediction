@@ -102,5 +102,5 @@ jupyter lab --notebook-dir=E:/ --preferred-dir E:/Documents/Somewhere/Else
 - Predictions can be made by feeding ```predict_price``` method with valid data, model path and model metadata path
   - model metadata is actually a list with all the features used to train the model
   - see notebook's last cell for working example 
-- Local development cab be done using **VSCode** or **PyCharm**. The latter may have some issues showing inline charts and visual elements. Also the latter requires subscripton to use **_Data Science_** tools.
+- Local development can be done using **VSCode** or **PyCharm**. The latter may have some issues showing inline charts and visual elements. Also the latter requires subscripton to use **_Data Science_** tools.
 - Ultimately the best way to do development in a productive way is by using **Google Colab**.
